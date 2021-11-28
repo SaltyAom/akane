@@ -182,8 +182,8 @@ init()
 
 document.addEventListener('DOMContentLoaded', function () {
     function resizeCanvas() {
-        canvas.width = window.innerWidth * 2
-        canvas.height = window.innerHeight * 2
+        canvas.width = window.innerWidth
+        canvas.height = window.innerHeight
     }
 
     window.addEventListener('orientationchange', resizeCanvas)
